@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.wholediv{
+    width: 1440px;
+    background-color: #647198;
+}
+.mainDiv{
+    width: 540px;
+    margin: auto;
+    padding-top: 96px;
+}
+.div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+
+.div4numNcircle{
+display: flex;
+align-items: end;
+gap: 7px;
+}
+
+
+
+
+/* 
+.circle{
+    opacity: 0;
+} */
+
+
+
+
+.div2seperate {
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 5px; */
+    align-items: center;
+
+}
+
+.div4num {
+  display: flex;
+  color: white;
+  width: 57px;
+  justify-content: space-between;
+
+}
+.theme {
+  color: white;
+  font-size: 12px;
+  padding-bottom: 5px;
+  
+}
+
+.div4colors {
+  background-color: #242d44;
+  border-radius: 13px;
+  padding: 5px;
+  gap: 3px;
+  display: flex;
+}
+.circle {
+  background-color: #d03f2f;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.div2 {
+  background-color: #181f33;
+  height: 128px;
+  border-radius: 10px;
+  margin-top: 32px;
+  color: white;
+  font-size: 56px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 32px;
+}
+
+
+.div3{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 24px;
+    background-color: #242D44;
+    margin-top: 24px;
+    border-radius: 10px;
+    padding: 32px;
+
+}
+.div4b{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.same_buttons{
+    height: 64px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.same_fonts{
+    font-size: 40px;
+    color: #434A59;
+    background-color: #EAE3DC;
+    box-shadow: 0 5px 5px 0 #979797;
+}
+
+.same_fonts:active{
+    box-shadow: 0 5px 5px 0 #979797 inset;
+}
+
+.butt_d{
+    font-size: 28px;
+    background-color: #647198;
+    color: white;
+    box-shadow: 0 5px 5px 0 #4f5b80;
+}
+.butt_d:active{
+    box-shadow: 0 5px 5px 0 #4f5b80 inset;
+}
+
+.equal{
+    grid-column: 3/5;
+    font-size: 28px;
+    background-color: #D03F2F;
+    color: white;
+    box-shadow: 0 5px 5px 0 #b33224;
+
+}
+
+.equal:active{
+    box-shadow: 0 5px 5px 0 #b33224 inset;
+}
+.RESET{
+    grid-column: 1/3;
+    font-size: 28px;
+    background-color: #647198;
+    color: white;
+    box-shadow: 0 5px 5px 0 #4f5b80 ;
+
+}
+
+.RESET:active{
+    box-shadow: 0 5px 5px 0 #4f5b80 inset;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wholediv">
+      <div class="mainDiv">
+        <div class="div1">
+          <h3 class="logo">calc</h3>
+          <div class="div4numNcircle">
+            <p class="theme">THEME</p>
+
+            <div class="div2seperate">
+              <div class="div4num">
+                <p class="num1">1</p>
+                <p class="num2">2</p>
+                <p class="num3">3</p>
+              </div>
+              <div class="div4colors">
+                <div class="circle" onclick="theme1()"></div>
+                <div class="circle" onclick="theme2()"></div>
+                <div class="circle" onclick="theme3()"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div2"></div>
+
+        <div class="div3">
+          <button class="butt same_buttons same_fonts" onclick="cifrebi(7)">7</button>
+          <button class="butt same_buttons same_fonts" onclick="cifrebi(8)">8</button>
+          <button class="butt same_buttons same_fonts" onclick="cifrebi(9)">9</button>
+          <button class="butt_d same_buttons  del" onclick="dell()">DEL</button>
+
+          <button class="butt same_buttons same_fonts" onclick="cifrebi(4)">4</button>
+          <button class="butt same_buttons same_fonts" onclick="cifrebi(5)">5</button>
+          <button class="butt same_buttons same_fonts" onclick="cifrebi(6)">6</button>
+          <button class="butt same_buttons same_fonts" onclick="operators('+')">+</button>
+
+          <button class="butt same_buttons same_fonts" onclick="cifrebi(1)">1</button>
+          <button class="butt same_buttons same_fonts" onclick="cifrebi(2)">2</button>
+          <button class="butt same_buttons same_fonts" onclick="cifrebi(3)">3</button>
+          <button class="butt same_buttons same_fonts" onclick="operators('-')">-</button>
+          <button class="butt same_buttons same_fonts" onclick="cifrebi('.')">.</button>
+          <button class="butt same_buttons same_fonts" onclick="cifrebi(0)">0</button>
+          <button class="butt same_buttons same_fonts" onclick="operators('/')">/</button>
+          <button class="butt same_buttons same_fonts" onclick="operators('*')">x</button>
+          <button class="butt same_buttons  RESET " onclick="rst()">RESET</button>
+          <button class="butt same_buttons equal" onclick="tolia()">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./script2.js"></script>
+  </body>
+</html>
